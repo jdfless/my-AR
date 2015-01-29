@@ -1,0 +1,19 @@
+Jonathan Flessner
+flessnej@onid.oregonstate.edu
+28-April-2014
+CS 311-400
+
+For the myar program extensive tests were run.  It was a complex program so this is understandable.
+In the makefile I wrote and ran automated tests for the q, t, v, d, and x features.  These are
+all the features that run identically to their ar counterparts.  For the -A and -w features, I 
+still ran many unit tests but they simply were not automated.  The automated tests would run
+the myar and ar programs with the same commands and then ensure that all the measurable outputs
+were the same.  For the -A and -w tests, I tested in a similar manner, except I compared to what
+was expected if using ar was not possible, and in some cases I would use ar in the same manner that
+-A was designed to be used in and then diff the outcomes.  -w was mostly tested using expected 
+outcomes and then by looking at the array using cat as it shares less functionality with ar. I ran
+tests with both the given 'number' text documents, and with many other of my own created test docs
+as well.
+
+For the sig_demo program, only basic testing was needed as this was a simple program.  The program
+was run multiple times without issue and always reporting the correct output.
